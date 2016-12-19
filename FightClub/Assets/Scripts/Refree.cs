@@ -62,7 +62,8 @@ public class Refree : MonoBehaviour {
         {
             player.WalkForward(false);
         }
-        else if (a)
+
+        if (a)
         {
             player.WalkBack(false);
         }

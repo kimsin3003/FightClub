@@ -17,12 +17,12 @@ public class PlayerController : MonoBehaviour {
 
     public void WalkBack(bool onWalkBack)
     {
-        fightAnimation.SetBool("GoingForward", onWalkBack);
+        fightAnimation.SetBool("GoingBack", onWalkBack);
     }
 
     public void WalkForward(bool onWalkForward)
     {
-        fightAnimation.SetBool("GoingBack", onWalkForward);
+        fightAnimation.SetBool("GoingForward", onWalkForward);
     }
 
     public void Guard(bool onGuard)

@@ -6,12 +6,12 @@ public class GameServer : MonoBehaviour {
 
     private WebSocket socket;
 	void Start () {
-        socket = new WebSocket("10.100.13.3");
-
-        socket.OnMessage += (sender, e) =>
-        {
-
-        }
+//         socket = new WebSocket("10.100.13.3");
+// 
+//         socket.OnMessage += (sender, e) =>
+//         {
+// 
+//         };
 	}
 	
 	void Update () {
